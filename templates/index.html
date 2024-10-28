@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteBucket - Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../static/1.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Gupter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body class="font-sans antialiased bg-gray-100 flex flex-col min-h-screen">
+    <!-- Header -->
+    <header class="bg-gray-800 text-white py-4 font-er">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo and title -->
+            <div>
+                <a class="flex items-center ml-2" href="./">
+                    <img class="mr-2 w-10 h-10" src="../static/1.png" alt="ByteBucket Logo">
+                    <h1 class="text-2xl md:text-3xl font-gupter">ByteBucket</h1>
+                </a>
+            </div>
+
+            <!-- Hamburger button for mobile -->
+            <button id="hamburger" class="block md:hidden text-white focus:outline-none mr-10">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+
+            <!-- Navigation menu -->
+            <nav id="mobile-menu"
+                class="z-20 fixed inset-y-0 left-0 w-64 bg-gray-800 transform -translate-x-full transition-transform duration-700 ease-in-out md:relative md:translate-x-0 md:flex md:items-center md:w-auto md:space-x-4">
+                <div class="flex flex-col md:flex-row p-4 md:p-0 space-y-4 md:space-y-0">
+                    <a href="/"
+                        class="text-white px-2 md:px-4 py-2 rounded-lg text-2xl hover:bg-gray-700 transition duration-300">Home</a>
+                    <a href="/upload"
+                        class="border-t-2 rounded-none pt-4 md:py-2 md:border-0 text-white px-2 md:px-4 md:rounded-lg text-2xl hover:bg-gray-700 transition duration-300">Upload</a>
+                    <a href="/files"
+                        class="border-t-2 rounded-none pt-4 md:py-2 md:border-0 text-white px-2 md:px-4 md:rounded-lg text-2xl hover:bg-gray-700 transition duration-300">Files</a>
+                </div>
+                <div class="flex items-center border-t-2 md:border-0 p-4 md:p-0 pl-3">
+                    <a href="/profile"
+                        class="text-white border border-1 border-white text-2xl px-2 md:border-0 md:px-4 py-2 rounded-md hover:bg-gray-700 transition duration-300">{{username}}</a>
+                    <a href="/logout" class="ml-2">
+                        <svg class="ml-3 w-8 h-8 md:w-10 md:h-10 text-white rounded-lg bg-red-500 hover:bg-red-600 transition duration-300 p-1"
+                            aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M16 12h4M4 18v-1a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v1a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1Zm8-10a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="z-10 relative mx-auto h-full"></div>
+    <!-- Full-width images with number and caption text -->
+    <div class="fade relative h-full border border-black-900">
+        <img src="https://img1.digitallocker.gov.in/assets/img/icons/web_2_en.jpg" class="w-full h-full object-cover">
+    </div>
+    </div>
+
+    <section class="bg-blue-500 text-white py-16">
+        <div class="container mx-auto text-center">
+            <p class="text-4xl md:text-7xl mb-8">Welcome to ByteBucket</p>
+            <p class="text-lg md:text-xl mb-8">Your one-stop solution for managing documents seamlessly.</p>
+            <a href="/upload"
+                class="bg-white text-blue-500 px-6 py-3 rounded-lg font-semibold text-lg hover:bg-gray-200">Get
+                Started</a>
+            <br>
+            <i class="mt-6 fa-solid fa-angle-down"></i>
+
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-200">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-gupter mb-8">Featured Content</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 shadow-lg rounded-lg mx-6">
+                    <h3 class="text-xl font-semibold mb-4">Secure File Storage</h3>
+                    <p class="text-gray-700">ByteBucket offers a safe and secure platform to store your documents,
+                        ensuring that your data remains confidential and easily accessible whenever you need it.</p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg mx-6">
+                    <h3 class="text-xl font-semibold mb-4">User-Friendly Interface</h3>
+                    <p class="text-gray-700">Our platform is designed with simplicity in mind. With an intuitive
+                        interface, you can easily manage and organize your documents without any hassle.</p>
+                </div>
+                <div class="bg-white p-6 shadow-lg rounded-lg mx-6">
+                    <h3 class="text-xl font-semibold mb-4">Personal Document Organization</h3>
+                    <p class="text-gray-700">ByteBucket helps you organize your personal files into categories, making
+                        it easy to find and manage your documents in a structured way.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-gray-800 text-white text-center py-4 mt-auto">
+        <div class="container mx-auto text-center">
+            <p class="text-lg md:text-base">&copy; 2024 ByteBucket. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../static/main.js"></script>
+</body>
+
+</html>

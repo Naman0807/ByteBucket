@@ -1,0 +1,16 @@
+Rate Limiting:
+    Limit the number of login attempts to prevent brute-force attacks.
+    Implement rate limiting for file uploads/downloads if necessary.
+
+API Integration:
+    A REST API to interact with your application for features like file upload, download, and user management.
+
+Dark/Light Theme Toggle: 
+    Allows users to toggle between light and dark themes.
+
+File Sharing:
+    Options to share files with other users within the app.
+    Link-based sharing with optional expiration dates.
+
+File Search and Filter: 
+    Allows users to search and filter files by name, category, or date uploaded.

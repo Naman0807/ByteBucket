@@ -1,0 +1,18 @@
+.font-edu-hand {
+	font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+.font-gupter {
+	font-family: "Gupter", cursive;
+}
+
+.font-er {
+	font-family: "EB Garamond", serif;
+}
+.abc {
+	background-image: url("../static/bg.jpg");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}

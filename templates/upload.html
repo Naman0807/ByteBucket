@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteBucket - Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../static/1.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Gupter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body class="font-sans antialiased bg-gray-100 flex flex-col min-h-screen">
+    <header class="bg-gray-800 text-white py-4 font-er">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo and title -->
+            <div>
+                <a class="flex items-center ml-2" href="./">
+                    <img class="mr-2 w-10 h-10" src="../static/1.png" alt="ByteBucket Logo">
+                    <h1 class="text-2xl md:text-3xl font-gupter">ByteBucket</h1>
+                </a>
+            </div>
+
+            <!-- Hamburger button for mobile -->
+            <button id="hamburger" class="block md:hidden text-white focus:outline-none mr-10">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
+                </svg>
+            </button>
+
+            <!-- Navigation menu -->
+            <nav id="mobile-menu"
+                class="z-20 fixed inset-y-0 left-0 w-64 bg-gray-800 transform -translate-x-full transition-transform duration-700 ease-in-out md:relative md:translate-x-0 md:flex md:items-center md:w-auto md:space-x-4">
+                <div class="flex flex-col md:flex-row p-4 md:p-0 space-y-4 md:space-y-0">
+                    <a href="/"
+                        class="text-white px-2 md:px-4 py-2 rounded-lg text-2xl hover:bg-gray-700 transition duration-300">Home</a>
+                    <a href="/upload"
+                        class="text-white px-2 md:px-4 py-2 rounded-lg text-2xl hover:bg-gray-700 transition duration-300">Upload</a>
+                    <a href="/files"
+                        class="text-white px-2 md:px-4 py-2 rounded-lg text-2xl hover:bg-gray-700 transition duration-300">Files</a>
+                </div>
+                <div class="flex items-center p-4 md:p-0">
+                    <a href="/profile"
+                        class="text-white text-2xl px-2 md:px-4 py-2 rounded-md hover:bg-gray-700 transition duration-300">{{username}}</a>
+                    <a href="/logout" class="ml-2">
+                        <svg class="w-8 h-8 md:w-10 md:h-10 text-white rounded-lg bg-red-500 hover:bg-red-600 transition duration-300 p-1"
+                            aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M16 12h4M4 18v-1a3 3 0 0 1 3-3h4a3 3 0 0 1 3 3v1a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1Zm8-10a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container mx-auto p-4 font-main ">
+        <div class="max-w-md mx-auto p-8 bg-white rounded-lg shadow-lg">
+            <h1 class="text-2xl md:text-3xl text-blue-900 mb-6">Upload Documents</h1>
+            <form action="/upload" method="POST" enctype="multipart/form-data">
+                <div class="flex flex-col space-y-4">
+                    <div
+                        class="flex items-center justify-center border-dashed border-2 border-gray-300 p-16 rounded-lg cursor-pointer">
+                        <input type="file" id="fileInput" name="file" multiple class="hidden" />
+                        <label for="fileInput" class="cursor-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                class="w-12 h-12 text-gray-400 mx-auto">
+                                <path fill="#D3D3D3"
+                                    d="M13.818 2H5c-1.654 0-3 1.346-3 3v14c0 1.654 1.346 3 3 3h14c1.654 0 3-1.346 3-3V8.182l-8.182-6zm.682 16.5v2h-14v-2h2v-9c0-.551.449-1 1-1h4.586l1.707 1.707a.996.996 0 0 0 1.414 0L15.732 8H20c.551 0 1 .449 1 1v9h2zm-4.5-5.5c-.827 0-1.5-.673-1.5-1.5s.673-1.5 1.5-1.5 1.5.673 1.5 1.5-.673 1.5-1.5 1.5z" />
+                            </svg>
+                            <p class="text-base md:text-lg text-gray-400 mt-2 text-center">
+                                click to upload your files.</p>
+                        </label>
+                    </div>
+
+                    <!-- File list and category selection -->
+                    <div id="fileList" class="flex flex-col space-y-4"></div>
+
+                    <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        Save
+                    </button>
+
+                    <p class="text-sm text-gray-400">You can enter any type of file (.PDF .docx .pptx)</p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer bg-gray-800 text-white text-center py-4 mt-auto">
+        <div class="container mx-auto text-center">
+            <p>Powered by ByteBucket</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const fileInput = document.getElementById("fileInput");
+            const fileList = document.getElementById("fileList");
+
+            fileInput.addEventListener("change", (event) => {
+                fileList.innerHTML = "";
+                const files = event.target.files;
+                Array.from(files).forEach((file, index) => {
+                    const listItem = document.createElement("div");
+                    listItem.classList.add("space-y-2");
+
+                    // File name
+                    const fileName = document.createElement("div");
+                    fileName.textContent = file.name;
+                    listItem.appendChild(fileName);
+
+                    const selectElement = document.createElement("select");
+                    selectElement.name = `category_${index}`;
+                    selectElement.classList.add(
+                        "block",
+                        "appearance-none",
+                        "w-full",
+                        "bg-white",
+                        "border",
+                        "border-gray-400",
+                        "hover:border-gray-500",
+                        "px-4",
+                        "py-2",
+                        "pr-8",
+                        "rounded",
+                        "leading-tight",
+                        "focus:outline-none",
+                        "focus:shadow-outline"
+                    );
+
+                    // Options
+                    const defaultOption = document.createElement("option");
+                    defaultOption.textContent = "Select a category";
+                    defaultOption.disabled = true;
+                    defaultOption.selected = true;
+                    selectElement.appendChild(defaultOption);
+
+                    const categories = [
+                        "Health",
+                        "Finance",
+                        "Education",
+                        "Entertainment",
+                        "Personal",
+                        "Other",
+                    ];
+                    categories.forEach((category) => {
+                        const option = document.createElement("option");
+                        option.value = category;
+                        option.textContent = category;
+                        selectElement.appendChild(option);
+                    });
+
+                    listItem.appendChild(selectElement);
+
+                    fileList.appendChild(listItem);
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>

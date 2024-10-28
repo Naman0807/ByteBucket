@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteBucket - Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../static/1.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Gupter&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body class="font-sans antialiased bg-gray-300 flex flex-col min-h-screen">
+    <header class="text-gray-400 bg-gray-800 shadow-md body-font">
+        <div class="container mx-auto flex p-5 items-center justify-center">
+            <a href="/" class="flex title-font font-medium items-center text-white">
+                <img src="../static/1.png" alt="logo" height="40px" width="40px">
+                <span class="ml-3 text-4xl font-gupter">ByteBucket</span>
+            </a>
+        </div>
+    </header>
+
+    <div class="abc container mx-auto mt-10 py-8 flex-grow font-main font-bold">
+        <div class="max-w-md mx-auto p-8 bg-white rounded-lg shadow-lg">
+            <h1 class="text-3xl text-blue-900 mb-6 text-center">Login</h1>
+            <form action="/login" method="POST" class="space-y-4">
+                <div class="mb-4">
+                    <label for="username" class="block text-gray-700">Username:</label>
+                    <input type="text" id="username" name="username"
+                        class="w-full mt-4 px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500 transition duration-300 ease-in-out"
+                        required>
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="block text-gray-700">Password:</label>
+                    <input type="password" id="password" name="password"
+                        class="w-full mt-4 px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500 transition duration-300 ease-in-out"
+                        required>
+                </div>
+                <button type="submit"
+                    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded cursor-pointer transition duration-300 ease-in-out">Login</button>
+            </form>
+
+            <p class="text-gray-700 mt-4">Don't have an account? <a href="/register" class="text-blue-500">Sign up
+                    here</a>.</p>
+            <p class="text-red-500 border border-red-500 p-2 rounded mt-2 bg-red-200" {% if not error
+                %}style="display: none;" {% endif %}>{{ error }}</p>
+
+        </div>
+    </div>
+
+    <footer class="footer bg-gray-800 text-white text-center py-4">
+        <div class="container mx-auto text-center">
+            <p>Powered by ByteBucket</p>
+        </div>
+    </footer>
+</body>
+
+</html>

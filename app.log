@@ -1,0 +1,191 @@
+2024-08-06 15:03:51,618 - INFO - User user registered successfully
+2024-08-06 15:04:01,081 - INFO - User user logged in successfully.
+2024-08-06 15:55:20,544 - INFO - User user logged out.
+
+
+2024-09-27 13:04:41,299 - INFO - File '12c1998f-ea14-4521-861e-1784e2755cc9_3nqtq5e_2k.jpeg' uploaded by user 'naman_080'
+2024-09-27 13:04:58,866 - INFO - File '12c1998f-ea14-4521-861e-1784e2755cc9_3nqtq5e_2k.jpeg' deleted by user 'naman_080'
+2024-09-27 13:20:58,451 - INFO - User naman_080 logged out.
+
+
+2024-09-27 13:34:36,595 - WARNING - Failed login attempt for username: naman_080
+2024-09-27 13:35:31,378 - INFO - User User logged in successfully.
+2024-09-27 13:37:37,432 - INFO - User User logged out.
+
+
+2024-09-27 13:56:42,095 - WARNING - Failed login attempt for username: User
+2024-09-27 14:03:37,857 - INFO - User naman_080 registered successfully
+2024-09-27 14:04:18,990 - INFO - User naman_080 logged in successfully.
+2024-09-27 14:17:20,565 - INFO - User naman_080 updated their profile.
+2024-09-27 15:21:38,310 - INFO - File 'WhatsApp_Image_2024-09-26_at_20.27.04_f733e755.jpg' uploaded by user 'naman_080' in category 'Health'
+2024-09-27 15:21:38,341 - INFO - File 'CE-270_Presentation_locations.pdf' uploaded by user 'naman_080' in category 'Education'
+2024-09-27 15:27:22,814 - INFO - 
+File 'Inventory_Management_Program_Outline.png' uploaded by user 'naman_080' in category 'Health'
+2024-09-27 15:27:37,018 - INFO - 
+File 'WhatsApp_Image_2024-09-26_at_20.27.05_43bc17f3.jpg' uploaded by user 'naman_080' in category 'Finance'
+2024-09-27 15:31:12,203 - INFO - File 'output.jpg' uploaded by user 'naman_080' in category 'Health'
+2024-09-27 15:44:31,776 - INFO - File 'output.jpg' deleted by user 'naman_080'
+2024-09-27 15:44:54,576 - INFO - File 'Dhirva_Kanzariya-1.jpg' uploaded by user 'naman_080' in category 'Finance'
+2024-09-27 16:02:38,713 - INFO - File 'Dhirva_Kanzariya-1.jpg' deleted by user 'naman_080'
+2024-09-27 16:05:12,380 - INFO - File 'dhirvaben_kansumra_kanya.jpg' uploaded by user 'naman_080' in category 'Health'
+2024-09-27 16:05:12,386 - INFO - File 'WhatsApp_Image_2024-09-26_at_20.27.05_43bc17f3.jpg' uploaded by user 'naman_080' in category 'Finance'
+2024-09-27 16:05:12,396 - INFO - File 'WhatsApp_Image_2024-09-26_at_20.27.04_f733e755.jpg' uploaded by user 'naman_080' in category 'Education'
+2024-09-27 16:05:12,761 - INFO - File 'CE-270_Presentation_locations.pdf' uploaded by user 'naman_080' in category 'Personal'
+2024-09-27 16:05:36,845 - INFO - File 'image.png' uploaded by user 'naman_080' in category 'Health'
+2024-09-27 16:05:36,855 - INFO - File 'output.jpg' uploaded by user 'naman_080' in category 'Finance'
+2024-09-27 16:05:36,872 - INFO - File 'SIH2024_IDEA_Presentation_Format.pptx' uploaded by user 'naman_080' in category 'Education'
+2024-09-27 16:05:36,970 - INFO - File 'Green_Weekly_App_Builder_Gantt_Chart.png' uploaded by user 'naman_080' in category 'Entertainment'
+2024-09-27 16:05:53,164 - INFO - File 'Green_Weekly_App_Builder_Gantt_Chart.png' deleted by user 'naman_080'
+2024-09-27 16:06:25,679 - INFO - User naman_080 logged out.
+
+
+2024-09-30 12:43:29,906 - WARNING - Failed login attempt for username: naman_080
+2024-09-30 12:43:50,008 - WARNING - Failed login attempt for username: naman_080
+2024-09-30 12:45:25,584 - INFO - User naman_080 logged in successfully.
+2024-09-30 12:46:42,184 - INFO - File 'D24DCE152_-_Practical_1.docx' uploaded by user 'naman_080' in category 'Health'
+2024-09-30 12:46:42,202 - INFO - File 'D24DCE152_-_Practical_2.docx' uploaded by user 'naman_080' in category 'Finance'
+2024-09-30 12:46:42,233 - INFO - File 'D24DCE152_-_Practical_3.docx' uploaded by user 'naman_080' in category 'Education'
+2024-09-30 12:46:42,240 - INFO - File 'D24DCE152_-_Practical_4.docx' uploaded by user 'naman_080' in category 'Personal'
+2024-09-30 12:46:59,603 - INFO - File 'D24DCE152_-_Practical_4.docx' deleted by user 'naman_080'
+2024-09-30 12:47:07,002 - INFO - File 'D24DCE152_-_Practical_3.docx' deleted by user 'naman_080'
+2024-09-30 12:47:11,437 - INFO - File 'D24DCE152_-_Practical_2.docx' deleted by user 'naman_080'
+2024-09-30 12:47:18,342 - INFO - File 'D24DCE152_-_Practical_1.docx' deleted by user 'naman_080'
+2024-09-30 13:08:40,916 - INFO - File 'D24DCE152_-_Practical_1.docx' uploaded by user 'naman_080' in category 'Health'
+2024-09-30 13:08:40,925 - INFO - File 'D24DCE152_-_Practical_2.docx' uploaded by user 'naman_080' in category 'Finance'
+2024-09-30 13:08:40,952 - INFO - File 'D24DCE152_-_Practical_3.docx' uploaded by user 'naman_080' in category 'Education'
+2024-09-30 13:08:40,955 - INFO - File 'D24DCE152_-_Practical_4.docx' uploaded by user 'naman_080' in category 'Personal'
+2024-09-30 13:12:58,762 - INFO - File 'D24DCE152_-_Practical_2.docx' deleted by user 'naman_080'
+2024-09-30 13:18:36,368 - INFO - File 'D24DCE152_-_Practical_4.docx' deleted by user 'naman_080'
+2024-09-30 13:26:40,655 - INFO - File 'nptel_fee_recipt_python.pdf' uploaded by user 'naman_080' in category 'Personal'
+2024-09-30 13:34:37,527 - INFO - File 'D24DCE152_-_Practical_1.docx' deleted by user 'naman_080'
+2024-09-30 13:47:34,701 - INFO - File 'D24DCE152_-_Practical_3.docx' uploaded by user 'naman_080' in category 'Other'
+2024-09-30 13:47:44,485 - INFO - File 'D24DCE152_-_Practical_3.docx' deleted by user 'naman_080'
+2024-09-30 13:47:48,525 - INFO - File 'D24DCE152_-_Practical_3.docx' deleted by user 'naman_080'
+2024-09-30 13:49:26,718 - INFO - File 'nptel_fee_recipt_python.pdf' deleted by user 'naman_080'
+2024-09-30 14:10:38,108 - INFO - User Manthan  registered successfully
+2024-09-30 14:10:50,876 - WARNING - Failed login attempt for username: Manthan
+2024-09-30 14:11:06,982 - WARNING - Failed login attempt for username: Manthan
+2024-09-30 14:11:10,761 - INFO - User naman_080 logged out.
+
+
+2024-09-30 14:12:58,281 - WARNING - Failed login attempt for username: Manthan 
+2024-09-30 14:13:14,223 - WARNING - Failed login attempt for username: Manthan 
+2024-09-30 14:14:18,085 - INFO - User Manthan  registered successfully
+2024-09-30 14:14:22,441 - ERROR - Failed user registration for username: Manthan  - Username or email already exists.
+2024-09-30 14:15:35,613 - WARNING - Failed login attempt for username: Manthan 
+2024-09-30 14:15:39,856 - INFO - User naman_080 logged in successfully.
+2024-09-30 14:16:32,889 - INFO - User naman_080 logged out.
+
+
+2024-09-30 14:18:54,420 - INFO - User naman_080 logged in successfully.
+2024-09-30 14:47:26,302 - INFO - User naman_080 logged in successfully.
+2024-09-30 15:05:18,264 - INFO - User naman_080 logged out.
+
+
+2024-10-04 22:53:36,516 - INFO - User naman_080 logged in successfully.
+2024-10-04 23:00:25,404 - INFO - File 'D24DCE152_-_Practical_4.docx' uploaded by user 'naman_080' in category 'Health'
+2024-10-04 23:02:46,884 - INFO - File 'D24DCE152_-_Practical_1.docx' uploaded by user 'naman_080' in category 'Health'
+2024-10-04 23:02:46,891 - INFO - File 'D24DCE152_-_Practical_2.docx' uploaded by user 'naman_080' in category 'Finance'
+2024-10-04 23:02:46,895 - INFO - File 'D24DCE152_-_Practical_3.docx' uploaded by user 'naman_080' in category 'Education'
+2024-10-04 23:05:37,271 - INFO - User naman_080 logged out.
+
+
+2024-10-05 09:12:58,361 - ERROR - Failed user registration for username: Manthan  - Username or email already exists.
+2024-10-05 09:13:14,099 - WARNING - Failed login attempt for username: Manthan 
+2024-10-05 09:13:30,317 - WARNING - Failed login attempt for username: Manthan 
+2024-10-05 09:14:10,826 - INFO - User Manthan  registered successfully
+2024-10-05 09:14:21,740 - WARNING - Failed login attempt for username: Manthan 
+2024-10-05 09:14:39,178 - WARNING - Failed login attempt for username: Kirtan
+2024-10-05 09:14:49,286 - WARNING - Failed login attempt for username: Manthan 
+2024-10-05 09:15:01,133 - INFO - User Kirtan registered successfully
+2024-10-05 09:15:11,089 - INFO - User Kirtan logged in successfully.
+2024-10-05 09:15:51,361 - INFO - File 'Password_policy-CMSS.pdf' uploaded by user 'Kirtan' in category 'Personal'
+2024-10-05 09:16:24,212 - WARNING - Failed login attempt for username: Dhyey
+2024-10-05 09:16:49,914 - ERROR - Failed user registration for username: Manthan - Username or email already exists.
+2024-10-05 09:17:00,364 - ERROR - Failed user registration for username: Dhyey - Password must be at least 8 characters long and contain at least one letter, one special character, and one digit.
+2024-10-05 09:17:07,936 - WARNING - Failed login attempt for username: Dhyey
+2024-10-05 09:17:13,374 - INFO - User naman_080 logged in successfully.
+2024-10-05 09:17:38,659 - ERROR - Failed user registration for username: Dhruv - Username or email already exists.
+2024-10-05 09:18:20,948 - INFO - User Om registered successfully
+2024-10-05 09:18:35,591 - WARNING - Failed login attempt for username: Man
+2024-10-05 09:19:01,015 - INFO - User Om logged in successfully.
+2024-10-05 09:19:30,564 - INFO - File 'BYTEBUCKET_ready-1.pptx' uploaded by user 'Om' in category 'Education'
+2024-10-05 09:20:01,205 - INFO - User Om logged out.
+
+
+2024-10-05 09:22:06,958 - INFO - User Dhyey registered successfully
+2024-10-05 09:22:17,487 - INFO - User Dhyey logged in successfully.
+2024-10-05 09:27:25,115 - INFO - User naman_080 logged in successfully.
+2024-10-05 11:10:50,137 - INFO - User Kirtan logged in successfully.
+2024-10-05 11:11:17,124 - INFO - User naman_080 logged in successfully.
+2024-10-05 11:14:08,941 - INFO - User naman_080 logged out.
+
+
+2024-10-05 11:17:53,591 - INFO - User naman_080 logged in successfully.
+2024-10-05 11:19:43,879 - INFO - File 'BYTEBUCKET_ready.pptx' uploaded by user 'naman_080' in category 'Personal'
+2024-10-05 11:20:09,492 - INFO - File 'BYTEBUCKET_ready.pptx' uploaded by user 'naman_080' in category 'Education'
+2024-10-05 11:20:29,088 - INFO - File 'BYTEBUCKET_ready.pptx' deleted by user 'naman_080'
+2024-10-05 11:23:36,870 - INFO - User naman_080 updated their profile.
+2024-10-05 11:24:06,277 - INFO - User Dhyey logged in successfully.
+2024-10-05 11:24:14,057 - INFO - User Dhyey logged out.
+
+
+2024-10-05 11:24:21,163 - INFO - User naman_080 logged out.
+
+
+2024-10-05 11:54:56,167 - INFO - User naman_080 logged in successfully.
+2024-10-05 11:57:00,686 - INFO - File '20240820_085857.jpg' uploaded by user 'naman_080' in category 'Other'
+2024-10-05 11:58:50,205 - INFO - User naman_080 logged in successfully.
+2024-10-05 11:59:21,333 - INFO - File 'D24DCE152_-_Practical_1.docx' deleted by user 'naman_080'
+2024-10-05 11:59:25,081 - INFO - File 'D24DCE152_-_Practical_4.docx' deleted by user 'naman_080'
+2024-10-05 11:59:30,378 - INFO - File 'D24DCE152_-_Practical_3.docx' deleted by user 'naman_080'
+2024-10-05 11:59:40,581 - INFO - File '20240820_085857.jpg' deleted by user 'naman_080'
+2024-10-05 11:59:49,300 - INFO - File 'D24DCE152_-_Practical_2.docx' deleted by user 'naman_080'
+2024-10-05 11:59:52,452 - INFO - File 'BYTEBUCKET_ready.pptx' deleted by user 'naman_080'
+2024-10-05 12:00:51,519 - INFO - User naman_080 logged out.
+
+
+2024-10-11 21:44:28,605 - INFO - User naman_080 logged in successfully.
+2024-10-11 21:44:59,971 - INFO - File 'Maths_Assignment-2.pdf' uploaded by user 'naman_080' in category 'Education'
+2024-10-11 21:45:44,091 - INFO - File 'syllabus_for_mid_2.jpg' uploaded by user 'naman_080' in category 'Other'
+2024-10-11 21:52:44,949 - INFO - User naman_080 logged out.
+
+
+2024-10-14 21:59:37,021 - WARNING - Failed login attempt for username: naman_080
+2024-10-14 21:59:50,577 - INFO - User naman_080 logged in successfully.
+2024-10-14 22:00:37,712 - INFO - User naman_080 logged in successfully.
+2024-10-14 22:01:01,941 - INFO - User naman_080 logged out.
+
+
+2024-10-14 22:03:57,955 - INFO - User naman_080 logged in successfully.
+2024-10-14 22:05:53,074 - INFO - User naman_080 updated their profile.
+2024-10-27 19:56:10,272 - INFO - User CJ registered successfully
+2024-10-27 19:56:28,748 - INFO - User CJ logged in successfully.
+2024-10-27 19:57:40,739 - INFO - File '17300392074677373884215118749455.jpg' uploaded by user 'CJ' in category 'Other'
+2024-10-27 19:58:30,350 - INFO - File 'IMG-20241027-WA0124.jpg' uploaded by user 'CJ' in category 'Personal'
+2024-10-27 20:01:34,708 - INFO - User nirbhaynp registered successfully
+2024-10-27 20:01:46,479 - INFO - User nirbhaynp logged in successfully.
+2024-10-27 20:09:10,132 - WARNING - Failed login attempt for username: naman_080
+2024-10-27 20:09:13,311 - INFO - File 'IMG20241022142742.jpg' uploaded by user 'nirbhaynp' in category 'Personal'
+2024-10-27 20:10:10,537 - INFO - User nirbhaynp logged out.
+
+
+2024-10-27 20:10:53,809 - INFO - User naman_080 logged in successfully.
+2024-10-27 20:15:56,729 - INFO - File 'temp.txt' uploaded by user 'naman_080' in category 'Health'
+2024-10-27 20:17:27,741 - INFO - User naman_080 logged out.
+
+
+2024-10-28 10:47:44,228 - WARNING - Failed login attempt for username: parmarnaman19@gmail.com
+2024-10-28 10:47:50,628 - WARNING - Failed login attempt for username: parmarnaman19@gmail.com
+2024-10-28 10:48:00,599 - WARNING - Failed login attempt for username: parmarnaman19@gmail.com
+2024-10-28 10:50:06,390 - ERROR - Failed user registration for username: naman_080 - Password must be at least 8 characters long and contain at least one letter, one special character, and one digit.
+2024-10-28 10:50:23,464 - ERROR - Failed user registration for username: naman_080 - Password must be at least 8 characters long and contain at least one letter, one special character, and one digit.
+2024-10-28 10:50:34,296 - ERROR - Failed user registration for username: naman_080 - Username or email already exists.
+2024-10-28 10:50:58,929 - WARNING - Failed login attempt for username: naman_080
+2024-10-28 10:51:06,972 - INFO - User naman_080 logged in successfully.
+2024-10-28 11:09:21,117 - INFO - File 'selected_articles.json' uploaded by user 'naman_080' in category 'Health'
+2024-10-28 11:10:49,734 - INFO - File 'devto_articles.json' uploaded by user 'naman_080' in category 'Finance'
+2024-10-28 11:11:01,191 - INFO - File 'temp.txt' uploaded by user 'naman_080' in category 'Personal'
+2024-10-28 11:11:20,761 - INFO - File 'selected_articles.json' deleted by user 'naman_080'
+2024-10-28 11:11:23,654 - INFO - File 'devto_articles.json' deleted by user 'naman_080'
+2024-10-28 11:14:55,198 - INFO - File 'devto_articles.json' uploaded by user 'naman_080' in category 'Other'
